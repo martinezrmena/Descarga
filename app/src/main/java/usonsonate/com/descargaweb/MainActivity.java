@@ -18,6 +18,13 @@ public class MainActivity extends AppCompatActivity {
         img = findViewById(R.id.imgDownload);
 
         Picasso.with(this)
+
+
+
+
+
+
+
                 .load("https://raw.githubusercontent.com/martinezrmena/IMAGES/master/DOWNLOAD/image_1.png")
                 .error(R.mipmap.ic_launcher)
                 .fit()
